@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-color: rgb(32, 32, 32);
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.container {
+    height: 420px;
+    width: 370px;
+    background: linear-gradient(to right bottom, rgb(232, 238, 63),lightgreen,aqua);
+
+    border-radius: 9px;
+    display: grid;
+    grid-template-rows: 18% 38% 10% 8% 26%;
+    justify-items: center;
+    align-items: center;
+}
+
+.image img {
+    height: 150px;
+    width: 150px;
+}
+
+.flex2 {
+    display: flex;
+    column-gap: 40px;
+}
+
+.drop {
+    font-size: 31px;
+    position: relative;
+    left: 12px;
+    color: darkblue;
+}
+
+.content {
+    position: relative;
+    right: 19px;
+}
+
+.wind {
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.flex1 input {
+    width: 260px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(65, 65, 65);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.flex1 button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+}
+
+.flex1 button:hover {
+    background-color: rgb(223, 221, 221);
+}
+
+.flex1 {
+    display: flex;
+    column-gap: 20px;
+}
+
+.temp {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.status {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+.humidity {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+.humidityPer {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.speed {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Windspeed {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+.flex1 input::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
