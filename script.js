@@ -16,7 +16,7 @@ async function checkWeather(cityName) {
     let jsonFormat = await fetchAPI.json();
 
     if (jsonFormat.cod === `404`) {
-        image.src = "404.png";
+        image.src = "./imgs/404.png";
         searchbtn.style.display = "none";
         input.style.display = "none";
         content.style.display = "none";
